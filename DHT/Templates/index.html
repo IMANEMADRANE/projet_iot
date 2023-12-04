@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+
+</head>
+<body>
+    {% load static %}
+  <div class="navbar"  style="background-image: url({% static 'images/HD.jpg' %}) ; ">
+    <nav >
+        <h2></h2>
+            <ul>
+                    <li>  <a href="/dht/index/" >Table</a></li>
+                    <li>  <a href="/dht/myChart/" >Chart</a></li>
+                    <li>  <a href="/dht/data/" >Json</a></li>
+            </ul>
+
+
+
+
+
+    </nav>
+</div>
+{% block i %}
+  {% endblock %}
+</body>
+</html>
